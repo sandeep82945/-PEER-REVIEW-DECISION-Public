@@ -1,0 +1,5 @@
+vaderSentiment==3.3.2
+torch == 1.10.2
+transformers== 4.16.2
+nltk == 3.6.7
+matplotlib ==3.5.1
