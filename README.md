@@ -1,7 +1,7 @@
 
 
 This is the offical repository of the paper titled 
-# 'DeepASPeer: towards an aspect-level sentiment controllable framework for decision prediction from academic peer reviews'
+# 'DeepASPeer: towards an aspect-level sentiment controllable framework for decision prediction from academic peer reviews '
 
 Here we propose a model that could help you determine the acceptance/rejection of a paper using peer reviews.
 
