@@ -156,20 +156,5 @@ def create_data(conf_name):
     with open("input_files/paper_rating_JCDL"+conf_name+".pickle",'wb') as out:
         pickle.dump(rating_data,out)
 
-
-    # count=0
-    # for id in phrase_data.keys():
-    #     for s in phrase_data[id].keys():
-    #         flag=0
-    #         for key1 in rating_data[id].keys():
-    #             if(Jaccard_Similarity(s,key1)):
-    #                 flag=1
-    #                 break
-
-    #         if(flag==0):
-    #             count+=1
-    
-    # print(count)
-
-
-        
+if __name__=='__main__':
+    create_data("")
