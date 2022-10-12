@@ -37,7 +37,7 @@ def Jaccard_Similarity(doc1, doc2):
  
 
 def create_data(conf_name):
-    data_path=r'raw_dataset/dataset/aspect_data'
+    data_path=r'dataset/aspect_data'
     r_data={}
     counter=0
 
@@ -94,7 +94,7 @@ def create_data(conf_name):
             counter+=1
 
             
-    data_path=r'raw_dataset/dataset/'
+    data_path=r'dataset/'
     decision_data={}
     rating_data={}
 
